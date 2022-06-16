@@ -185,6 +185,7 @@ Click on one of the options below for instructions on deploying the app.
  - Include a new section called "Education" which will enable women to search and pursue education after a break
 
 ### Authors
+- **Bharathi Athinarayanan** - _Humanitarian / AI/ML Architect / Team lead_
 - **Baji Jinka** - _Builder / Lead Full stack Developer_
 - **Prashanth P** - _Designer / Lead Principal Developer_
-- **Bharathi Athinarayanan** - _Humanitarian / AI/ML Architect_
+
