@@ -163,6 +163,6 @@ Click on one of the options below for instructions on deploying the app.
 | - | - | - |
 | [![openshift](https://raw.githubusercontent.com/IBM/pattern-utils/master/deploy-buttons/openshift.png)](doc/source/openshift.md) | [![public](https://raw.githubusercontent.com/IBM/pattern-utils/master/deploy-buttons/cf.png)](doc/source/cf.md) | [![local](https://raw.githubusercontent.com/IBM/pattern-utils/master/deploy-buttons/local.png)](doc/source/local.md) |
 
-###Future roadmap
+### Future roadmap
  - Include feature for booking a interview right from the bot
  - Include a new section called "Education" which will enable women to search and pursue education after a break
