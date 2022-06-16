@@ -51,8 +51,7 @@ Our team felt the responsibility of helping the women with the help of technolog
 
 So, the solution to this problem can be an AI-based responsible chatbot called **SaheliBOT** where women can chat with it and:
 - Find relevant job opportunities
-- Know more details about the job and
-- Book an interview slot
+- Know more details about the job 
  
 So why choose a **"responsible"** bot? Reason being:
 •	Available 24/7
@@ -63,7 +62,7 @@ So why choose a **"responsible"** bot? Reason being:
 •	Trustworthy
 
 ### SaheliBOT Personality: 
-•	Friendly
+•	Friendly (Saheli means friend in Hindi language)
 •	Gives a sister feeling 
 
 ### Bot goals:
@@ -85,8 +84,6 @@ So why choose a **"responsible"** bot? Reason being:
 - If they click "View Jobs" - it will take them to external site
 - Else if they click "start over" (not shown in flow), it should restart the process
 
-## Our solution
-
 Saheli is a Web based chat bot, here is that we'll be using voice input and output. For the conversation dialog we'll of course be using Watson Assistant, but we'll also be using Watson Speech To Text to capture the user's voice, and lastly we'll use Watson Text To Speech to playback the chatbots response to the user. The web application itself is built on top of JQuery and Python Flask.
 
 The Flow of the code pattern :
@@ -98,7 +95,7 @@ The Flow of the code pattern :
 
 ![architecture](doc/source/images/architecture.png)
 
-## Flow
+### Flow
 
 1. User selects the microphone option on the browser and speaks.
 2. The voice is passed on to Watson Speech To Text using a Web Socket connection.
@@ -106,18 +103,18 @@ The Flow of the code pattern :
 4. The response from Watson Assistant is passed onto Watson Text to Speech.
 5. The audio output is sent to the web application and played back to the user, while the UI also displays the same text.
 
-## Included components
+### Included components
 
 * [Watson Speech-to-Text](https://www.ibm.com/watson/services/speech-to-text/): A service that converts human voice into written text.
 * [Watson Text-to-Speech](https://www.ibm.com/watson/services/text-to-speech/): Converts written text into natural sounding audio in a variety of languages and voices.
 * [Watson Assistant](https://www.ibm.com/watson/ai-assistant/): Create a chatbot with a program that conducts a conversation via auditory or textual methods.
 
-## Featured technologies
+### Featured technologies
 
 * [Flask](http://flask.pocoo.org/): Python is a programming language that lets you work more quickly and integrate your systems more effectively.
 * [jQuery](https://jquery.com/): It is a cross-platform JavaScript library designed to simplify the client-side scripting of HTML.
 
-# Sample output
+### Sample output
 
 Follow the script below for a sample conversation with Saheli.
 
@@ -152,16 +149,20 @@ User Reply: ok Thanks
 Saheli: Have a great day
 ```
 
-## Links
+### Links
 
 * [Watson Node.js SDK](https://github.com/watson-developer-cloud/node-sdk)
 * [Relevancy Training Demo Video](https://www.youtube.com/watch?v=8BiuQKPQZJk)
 * [Relevancy Training Demo Notebook](https://github.com/akmnua/relevancy_passage_bww)
 
-## Deployment options
+### Deployment options
 
 Click on one of the options below for instructions on deploying the app.
 
 |   |   |   |
 | - | - | - |
 | [![openshift](https://raw.githubusercontent.com/IBM/pattern-utils/master/deploy-buttons/openshift.png)](doc/source/openshift.md) | [![public](https://raw.githubusercontent.com/IBM/pattern-utils/master/deploy-buttons/cf.png)](doc/source/cf.md) | [![local](https://raw.githubusercontent.com/IBM/pattern-utils/master/deploy-buttons/local.png)](doc/source/local.md) |
+
+###Future roadmap
+ - Include feature for booking a interview right from the bot
+ - Include a new section called "Education" which will enable women to search and pursue education after a break
