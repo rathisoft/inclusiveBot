@@ -43,13 +43,13 @@ So, they often stop taking the initiative itself.
     •	When they need information, knowledge to help assess their situation
 ### Solution: Powering women to return to work with help of IBM’s conversational AI
 
-Our team felt the responsibility of helping the women with the help of technology. We brainstormed several ideas by employing the design thinking approach and found that:
+Our team felt the responsibility of helping the women with the help of technology and IBM. We brainstormed several ideas by employing the design thinking approach and found that:
 - Existing apps have unwanted features that were very time consuming.
     - Outcome: Decided to make the user experience as simple as possible as it helps the user gain a positive experience
 - Existing apps are not transparent enough and not trustworthy.
     - Outcome: Decided to make our solution trustworthy by including the guiding principles of Responsible AI
 
-So, the solution to this problem can be an AI-based responsible chatbot called **SaheliBOT** where women can chat with it and:
+So, the solution to this problem can be an AI-based responsible chatbot called **SaheliBOT** where women from urban and rural areas can chat with it and:
 - Find relevant job opportunities
 - Know more details about the job 
  
@@ -69,7 +69,7 @@ So why choose a **"responsible"** bot? Reason being:
 1.	Intelligent
 2.	Fast & Accurate
 3.	Secure
-4.	Easy to access (accessibility built-in with Translator option)
+4.	Easy to access
 
 ### High Level flow:
 
@@ -146,24 +146,7 @@ List of Job Recommendations based on your technology selection :
 https://insights.naukri.com/career-tools/tech-careers/top-companies-for-data-analyst
 User Reply: ok Thanks
 
-Saheli: Thank you, Have a great day!
-
-More about the latest/trending technologies in the current IT market to kickstart your career
-
-Top 10 Trending Technologies in 2022:
-
-HyperAutomation
-Cybersecurity
-Full Stack Development
-Blockchain
-Snowflake
-Edge Computing
-Internet of Behaviors
-Predictive Analytics
-Devops
-AI as a Service
-
-Saheli: Welcome to Saheli. I am a bot who can help in finding the best career options for you regardless of the reason or the length of your break.
+Saheli: Have a great day
 ```
 
 ### Links
@@ -182,10 +165,11 @@ Click on one of the options below for instructions on deploying the app.
 
 ### Future roadmap
  - Include feature for booking a interview right from the bot
+ - Improve accessibility by providing built-in with Translator option
  - Include a new section called "Education" which will enable women to search and pursue education after a break
 
 ### Authors
-- **Bharathi Athinarayanan** - _Humanitarian / AI/ML Architect / Team lead_
+- **Bharathi Athinarayanan** - _Humanitarian / AI/ML Architecht / Team lead_
 - **Baji Jinka** - _Builder / Lead Full stack Developer_
 - **Prashanth P** - _Designer / Lead Principal Developer_
 
