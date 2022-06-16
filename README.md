@@ -146,7 +146,22 @@ List of Job Recommendations based on your technology selection :
 https://insights.naukri.com/career-tools/tech-careers/top-companies-for-data-analyst
 User Reply: ok Thanks
 
-Saheli: Have a great day
+Saheli: Thank you, Have a great day!
+
+More about the latest/trending technologies in the current IT market to kickstart your career
+Top 10 Trending Technologies in 2022:
+HyperAutomation
+Cybersecurity
+Full Stack Development
+Blockchain
+Snowflake
+Edge Computing
+Internet of Behaviors
+Predictive Analytics
+Devops
+AI as a Service
+
+Saheli: Welcome to Saheli. I am a bot who can help in finding the best career options for you regardless of the reason or the length of your break.
 ```
 
 ### Links
