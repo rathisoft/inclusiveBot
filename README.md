@@ -1,9 +1,9 @@
 
 # Saheli
 
-In this code pattern we will create a web based chat bot, but the twist here is that we'll be using voice input and output. For the conversation dialog we'll of course be using Watson Assistant, but we'll also be using Watson Speech To Text to capture the user's voice, and lastly we'll use Watson Text To Speech to playback the chatbots response to the user. The web application itself is built on top of JQuery and Python Flask.
+Saheli is a Web based chat bot, here is that we'll be using voice input and output. For the conversation dialog we'll of course be using Watson Assistant, but we'll also be using Watson Speech To Text to capture the user's voice, and lastly we'll use Watson Text To Speech to playback the chatbots response to the user. The web application itself is built on top of JQuery and Python Flask.
 
-When the reader has completed this code pattern they will understand how to:
+The Flow of the code pattern :
 
 * Make a Watson Speech To Text call using a Web Socket Connection
 * Make a Watson Text to Speech REST API call
@@ -41,68 +41,41 @@ Click on one of the options below for instructions on deploying the app.
 
 # Sample output
 
-Follow the script below for a sample path in an insurance domain, or configure your own dialog under Watson Assistant.
+Follow the script below for a sample conversation with Saheli.
 
 ```text
-Voice Bot: Hello. How can I help you?
-User Reply: I am trying to buy an insurance
+Saheli: Welcome to Saheli. I am a bot who can help in finding the best career options for you regardless of the reason or the length of your break.
+User Reply: I am housewife, want to restart my career
 
-Voice Bot: You have come to the right place We offer you a smart, affordable and convenient way to safeguard the future for you and your family. Can I ask you a couple of questions to come up with the best plan for you?
-User Reply: ok sure
+Saheli: You have come to the right place. I will help you in guiding the career path, Before that could you let me know few questions ?
+What is your educational background ?
+User Reply: Degree
 
-Voice Bot: Please tell me your Name followed by Date Of Birth and Annual Income
-User Reply: This is Mary
+Saheli: What kind of jobs are you interested in? Like Software & IT, Data Science, Sales, Marketing
+User Reply: Data Science
 
-Voice Bot: Please enter your Date of Birth
-User Reply: 2nd June 1945
+Saheli: How much work experience do you have ?
+User Reply: I am a Fresher
 
-Voice Bot: Your annual income?
-User Reply: 1200000 dollars
+Saheli: Alright! Which cities are you looking for jobs in? Like Mumbai, Pune
+User Reply: Mumbai
 
-Voice Bot: Do you smoke?
-User Reply: Nope I dont
+Saheli: Thank you, we found the details below, based on your technology selection :
 
-Voice Bot: Please tell me your gender
-User Reply: Female
+you can see the insights of the hiring trends of the technology to have selected :
 
-Voice Bot: Enter a protection type
-Select one among Basic Life Cover, Fixed Income Protection or Increasing Income Protection.
-User Reply: Life Cover
+https://insights.naukri.com/career-tools/skills-trends/demand-for-data-science, https://insights.naukri.com/career-tools/tech-careers/how-to-become-data-analyst
 
-Voice Bot: What premium payment frequency would you prefer? Monthly, Quarterly, Half Yearly or Yearly?
-User Reply: Monthly
+List of Job Recommendations based on your technology selection :
 
-Voice Bot: What term would you want to go for? Enter a range between 10 years to 35 years.
-User Reply: 8 years
-
-Voice Bot: Please enter a term ranging between 10 years to 35 years.
-User Reply: 12
-
-Voice Bot: Your yearly premium for 12 years under the Basic Life Cover plan is 67767 dollars. Do you want to try any other options or go ahead with buying this?
-User Reply: No What is Basic Life Cover?
-
-Voice Bot: On death during the Policy term, Sum Assured as a lump sum is paid to the nominee and the policy terminates.
+https://insights.naukri.com/career-tools/tech-careers/top-companies-for-data-analyst
 User Reply: ok Thanks
 
-Voice Bot: Have a great day
+Saheli: Have a great day
 ```
-
-![sample output](doc/source/images/sample_output.png)
 
 ## Links
 
 * [Watson Node.js SDK](https://github.com/watson-developer-cloud/node-sdk)
 * [Relevancy Training Demo Video](https://www.youtube.com/watch?v=8BiuQKPQZJk)
 * [Relevancy Training Demo Notebook](https://github.com/akmnua/relevancy_passage_bww)
-
-## Learn more
-
-* **Artificial Intelligence Code Patterns**: Enjoyed this Code Pattern? Check out our other [AI Code Patterns](https://developer.ibm.com/technologies/artificial-intelligence/).
-* **AI and Data Code Pattern Playlist**: Bookmark our [playlist](https://www.youtube.com/playlist?list=PLzUbsvIyrNfknNewObx5N7uGZ5FKH0Fde) with all of our Code Pattern videos
-* **With Watson**: Want to take your Watson app to the next level? Looking to utilize Watson Brand assets? [Join the With Watson program](https://www.ibm.com/watson/with-watson/) to leverage exclusive brand, marketing, and tech resources to amplify and accelerate your Watson embedded commercial solution.
-
-## License
-
-This code pattern is licensed under the Apache Software License, Version 2.  Separate third party code objects invoked within this code pattern are licensed by their respective providers pursuant to their own separate licenses. Contributions are subject to the [Developer Certificate of Origin, Version 1.1 (DCO)](https://developercertificate.org/) and the [Apache Software License, Version 2](https://www.apache.org/licenses/LICENSE-2.0.txt).
-
-[Apache Software License (ASL) FAQ](https://www.apache.org/foundation/license-faq.html#WhatDoesItMEAN)
