@@ -31,14 +31,6 @@ The Flow of the code pattern :
 * [Flask](http://flask.pocoo.org/): Python is a programming language that lets you work more quickly and integrate your systems more effectively.
 * [jQuery](https://jquery.com/): It is a cross-platform JavaScript library designed to simplify the client-side scripting of HTML.
 
-## Deployment options
-
-Click on one of the options below for instructions on deploying the app.
-
-|   |   |   |
-| - | - | - |
-| [![openshift](https://raw.githubusercontent.com/IBM/pattern-utils/master/deploy-buttons/openshift.png)](doc/source/openshift.md) | [![public](https://raw.githubusercontent.com/IBM/pattern-utils/master/deploy-buttons/cf.png)](doc/source/cf.md) | [![local](https://raw.githubusercontent.com/IBM/pattern-utils/master/deploy-buttons/local.png)](doc/source/local.md) |
-
 # Sample output
 
 Follow the script below for a sample conversation with Saheli.
@@ -79,3 +71,11 @@ Saheli: Have a great day
 * [Watson Node.js SDK](https://github.com/watson-developer-cloud/node-sdk)
 * [Relevancy Training Demo Video](https://www.youtube.com/watch?v=8BiuQKPQZJk)
 * [Relevancy Training Demo Notebook](https://github.com/akmnua/relevancy_passage_bww)
+
+## Deployment options
+
+Click on one of the options below for instructions on deploying the app.
+
+|   |   |   |
+| - | - | - |
+| [![openshift](https://raw.githubusercontent.com/IBM/pattern-utils/master/deploy-buttons/openshift.png)](doc/source/openshift.md) | [![public](https://raw.githubusercontent.com/IBM/pattern-utils/master/deploy-buttons/cf.png)](doc/source/cf.md) | [![local](https://raw.githubusercontent.com/IBM/pattern-utils/master/deploy-buttons/local.png)](doc/source/local.md) |
