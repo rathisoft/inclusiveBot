@@ -149,7 +149,9 @@ User Reply: ok Thanks
 Saheli: Thank you, Have a great day!
 
 More about the latest/trending technologies in the current IT market to kickstart your career
+
 Top 10 Trending Technologies in 2022:
+
 HyperAutomation
 Cybersecurity
 Full Stack Development
