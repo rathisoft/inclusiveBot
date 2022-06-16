@@ -85,6 +85,8 @@ So why choose a **"responsible"** bot? Reason being:
 - If they click "View Jobs" - it will take them to external site
 - Else if they click "start over" (not shown in flow), it should restart the process
 
+## Our solution
+
 Saheli is a Web based chat bot, here is that we'll be using voice input and output. For the conversation dialog we'll of course be using Watson Assistant, but we'll also be using Watson Speech To Text to capture the user's voice, and lastly we'll use Watson Text To Speech to playback the chatbots response to the user. The web application itself is built on top of JQuery and Python Flask.
 
 The Flow of the code pattern :
